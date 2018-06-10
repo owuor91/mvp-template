@@ -1,0 +1,15 @@
+<resources>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="toolbarTitleTextSize">20sp</dimen>
+  <dimen name="defaultMargin">16dp</dimen>
+  <dimen name="smallMargin">8dp</dimen>
+  <dimen name="separatorHeight">0.5dp</dimen>
+  <dimen name="zeroDp">0dp</dimen>
+  <dimen name="smallText">12sp</dimen>
+  <dimen name="tinyMargin">4dp</dimen>
+  <dimen name="tinyText">8sp</dimen>
+  <dimen name="pointsMargin">24dp</dimen>
+  <dimen name="dateSpace">5dp</dimen>
+  <dimen name="avatarPlaceholderTextSize">32sp</dimen>
+  <dimen name="listAvatarSize">56dp</dimen>
+</resources>
