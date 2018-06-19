@@ -4,7 +4,7 @@ apply plugin: 'io.fabric'
 android {
   compileSdkVersion 26
   defaultConfig {
-    applicationId "io.github.owuor91.hackernews"
+    applicationId "io.github.owuor91.template"
     minSdkVersion 16
     targetSdkVersion 26
     versionCode 1

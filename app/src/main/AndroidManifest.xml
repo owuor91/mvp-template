@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.owuor91.hackernews">
+    package="io.github.owuor91.template">
 
   <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -16,15 +16,7 @@
         android:name="io.fabric.ApiKey"
         android:value="188d6461544e1fc12720784f57e56ccb8864987a"
         />
-    <activity
-        android:name=".ui.activities.HomeActivity"
-        android:theme="@style/AppTheme.NoActionBar">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN"/>
 
-        <category android:name="android.intent.category.LAUNCHER"/>
-      </intent-filter>
-    </activity>
   </application>
 
 </manifest>
