@@ -1,6 +1,7 @@
 # HackerNews
 
-This is an android app that allows users to read HackerNews articles. It consumes the hackernews v0 API. The application's architecture follows the Model-View-Presenter design pattern and is divided into 4 modules:
+This is an android app that does abc. It consumes the xyz API. The application's
+architecture follows the Model-View-Presenter design pattern and is divided into 4 modules:
 
  - app - Contains the UI components of the app and the root of the dependency injection.
  - presentation - Contains presenter classes that obtain data from repositories, process and pass it to the views
@@ -8,14 +9,21 @@ This is an android app that allows users to read HackerNews articles. It consume
  - data - Contains the implementation of the data sources (repositories) used in the app, both api and local db.
  - domain - Contains interfaces of the repositories and models used throughout the app.
 
-### HackerNews is available on the Playstore
-<img src="https://raw.githubusercontent.com/owuor91/hackernews/master/images/story.png" width="260"> <img src="https://raw.githubusercontent.com/owuor91/hackernews/master/images/comment.png" width="260"> <img src="https://raw.githubusercontent.com/owuor91/hackernews/master/images/user.png" width="260">
+### Template is available on the Playstore
+<!-- images here <img src="https://raw.githubusercontent.com/owuor91/hackernews/master/images/story
+.png"
+width="260"> <img src="https://raw.githubusercontent.com/owuor91/hackernews/master/images/comment
+.png" width="260"> <img src="https://raw.githubusercontent.com/owuor91/hackernews/master/images/user
+.png" width="260"> -->
 
-<a href='https://play.google.com/store/apps/details?id=io.github.owuor91.hackernews&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='360'/></a>
+<!-- playstore link here <a href='https://play.google.com/store/apps/details?id=io.github.owuor91
+.hackernews&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank'><img
+alt='Get it on Google Play' src='https://play.google
+.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='360'/></a> -->
 
 ### Pull the project
-    git clone https://github.com/owuor91/hackernews.git
-    cd hackernews
+    git clone https://github.com/owuor91/mvp-template.git
+    cd mvp-template
 
 ## Libraries Used:
 ### General
