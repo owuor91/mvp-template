@@ -12,10 +12,6 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
-
 @Module public class ApiModule {
 
   @Provides @Named(DIConstants.DEFAULT) public OkHttpClient provideDefaultOkHttpClient() {

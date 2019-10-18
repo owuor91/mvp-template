@@ -1,9 +1,5 @@
 package io.github.owuor91.domain.di;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
-
 public class DIConstants {
   public static final String APP = "app";
   public static final String ACTIVITY = "activity";

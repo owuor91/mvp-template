@@ -1,9 +1,5 @@
 package io.github.owuor91.domain;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
-
 public class Constants {
   public static final String CUSTOM_FONT_ASSET_PATH = "fonts/GothamRoundedBook.ttf";
   public static final String WEEKS = "w";

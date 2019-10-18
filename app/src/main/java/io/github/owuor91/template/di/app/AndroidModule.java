@@ -8,9 +8,6 @@ import dagger.Provides;
 import io.github.owuor91.domain.di.DIConstants;
 import javax.inject.Named;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
 @Module public class AndroidModule {
   private final Context context;
 

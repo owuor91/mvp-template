@@ -11,10 +11,6 @@ import io.github.owuor91.template.MyApplication;
 import io.github.owuor91.template.di.activity.ActivityComponent;
 import javax.inject.Named;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
-
 @Module(includes = AndroidModule.class, subcomponents = { ActivityComponent.class }) public class ApplicationModule {
   private final MyApplication myApplication;
 

@@ -14,10 +14,6 @@ import io.github.owuor91.template.di.app.DaggerApplicationComponent;
 import io.github.owuor91.template.ui.activities.BaseActivity;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
-
 public class MyApplication extends Application {
   private ApplicationComponent applicationComponent;
 

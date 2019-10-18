@@ -1,25 +1,18 @@
 package io.github.owuor91.template.ui.fragments;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
-import butterknife.ButterKnife;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import io.github.owuor91.data.util.RxUtil;
 import io.github.owuor91.template.di.activity.ActivityComponent;
 import io.github.owuor91.template.di.fragment.FragmentComponent;
 import io.github.owuor91.template.di.fragment.FragmentModule;
 import io.github.owuor91.template.ui.activities.BaseActivity;
 import io.reactivex.disposables.CompositeDisposable;
-
-/**
- * Created by johnowuor on 21/03/2018.
- */
 
 public class BaseFragment extends Fragment {
   private static final int NO_LAYOUT = -1;
@@ -41,7 +34,6 @@ public class BaseFragment extends Fragment {
       @Nullable Bundle savedInstanceState) {
     if (getLayoutId() != NO_LAYOUT) {
       View view = inflater.inflate(getLayoutId(), container, false);
-      ButterKnife.bind(this, view);
       return view;
     } else {
       return super.onCreateView(inflater, container, savedInstanceState);

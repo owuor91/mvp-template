@@ -1,4 +1,4 @@
-# HackerNews
+# MVP Template
 
 This is an android app that does abc. It consumes the xyz API. The application's
 architecture follows the Model-View-Presenter design pattern and is divided into 4 modules:

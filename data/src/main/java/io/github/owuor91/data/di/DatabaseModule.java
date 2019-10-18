@@ -2,10 +2,6 @@ package io.github.owuor91.data.di;
 
 import dagger.Module;
 
-/**
- * Created by johnowuor on 20/03/2018.
- */
-
 @Module public class DatabaseModule {
   /*@Provides public AppNameDatabase provideHackerNewsDatabase(@Named(DIConstants.APP) Context context) {
     return Room.databaseBuilder(context, AppNameDatabase.class, "hackernews_db").build();

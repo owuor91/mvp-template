@@ -5,10 +5,6 @@ import org.joda.time.DateTime;
 import org.joda.time.Interval;
 import org.joda.time.Period;
 
-/**
- * Created by johnowuor on 27/03/2018.
- */
-
 public class DateTimeUtils {
 
   public static String getElapsedTime(long timestamp) {

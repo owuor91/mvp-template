@@ -1,17 +1,17 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 
 android {
-  compileSdkVersion 26
-
-
+  compileSdkVersion 29
 
   defaultConfig {
     minSdkVersion 16
-    targetSdkVersion 26
+    targetSdkVersion 29
     versionCode 1
     versionName "1.0"
 
-    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
   }
 
   compileOptions {
@@ -34,14 +34,19 @@ android {
 dependencies {
   implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-  implementation 'com.android.support:appcompat-v7:26.1.0'
+  implementation 'androidx.appcompat:appcompat:1.1.0'
   testImplementation 'junit:junit:4.12'
-  androidTestImplementation 'com.android.support.test:runner:1.0.1'
-  androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+  androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+  androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
   annotationProcessor 'com.google.dagger:dagger-compiler:2.15'
 
-  testImplementation 'org.mockito:mockito-core:2.+'
+  testImplementation 'org.mockito:mockito-core:2.28.2'
 
-  api project(path: ':data')
+  api project(':data')
+  implementation "androidx.core:core-ktx:1.1.0"
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+  mavenCentral()
 }
